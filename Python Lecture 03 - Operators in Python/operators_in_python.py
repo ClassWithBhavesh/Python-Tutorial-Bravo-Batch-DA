@@ -120,7 +120,7 @@ num6 = 13
 print(num5 == num6)     # False
 
 
-num5 = '78'
+num5 = 78
 num6 = 78
 print(num5 == num6)     # True (int == int)       False (int == str)
 
@@ -131,4 +131,41 @@ print(num5 > num6)      # True
 print(num5 < num6)      # False
 print(num5 >= num6)     # True
 print(num5 <= num6)     # False
+
+# Logical Operators - and | or | not   -   whenver you've to perform some task on the basis of certain conditions, you use comparison operators
+# - but if we want to perform some task on the basis of more than a condition then you must use logical operator
+
+count1 = 10
+count2 = 20
+count3 = 30
+print(count1)
+print(count2)
+print(count3)
+
+print("------------ and logical opr -------------")
+
+print(count1 < count2 and count1 < count3)
+print(count2 < count1 and count2 < count3)
+print(count3 < count2 and count3 < count1)
+
+print("------------ or logical opr ------------")
+
+print(count1 < count2 or count1 < count3)
+print(count2 < count1 or count2 < count3)
+print(count3 < count2 or count3 < count1)
+
+
+
+
+print("------------ not (and) ------------")
+
+print(not(count1 < count2 and count1 < count3))
+print(not(count2 < count1 and count2 < count3))
+print(not(count3 < count2 and count3 < count1))
+
+print("------------ not (or) ------------")
+
+print(not(count1 < count2 or count1 < count3))
+print(not(count2 < count1 or count2 < count3))
+print(not(count3 < count2 or count3 < count1))
 
