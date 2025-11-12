@@ -169,3 +169,45 @@ print(not(count1 < count2 or count1 < count3))
 print(not(count2 < count1 or count2 < count3))
 print(not(count3 < count2 or count3 < count1))
 
+# Memebership Operators - it will check whether the given input or value is a member of second operand or not (in & not in)
+# - it will return a boolean value (True or False)
+
+# li = ["Football", "Basketball", "Voleyball", "SeasonBall"]
+# print(li)
+
+# status = "Voleyball" not in li
+# print("Football in li : ", status)
+
+# Identity Operators - it will check whether the given input or value is a member or not as well as
+# it will check the memory allocation of that value in the second operand
+# there are two operators - 1. is      |     2. is not
+
+# li = [10,100,1000,1]  # li[1]
+# print(li)
+
+# print(li[1] is li)
+# print(li[1] in li)
+
+
+person1 = {
+  "name": "Rahul"
+}
+person2 = {
+  "name": "Rahul"
+}
+
+person3 = person1
+
+print(person1 == person2)
+print(person1 is not person2)
+print(person3 is not person1)
+
+# Bitwise Operators - &   /   |   /  ^
+
+numA = 12
+numB = 5
+
+print(numA & numB)
+print(numA | numB)
+print(numA ^ numB)
+
