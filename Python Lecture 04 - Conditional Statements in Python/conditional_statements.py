@@ -36,20 +36,78 @@ Original file is located at
 
 # that's why python community comes with a new keyword, i.e. "elif"
 
-day = "feb"
+# day = "feb"
 
-if(day == "Monday"):
-  print("Monday Working Day!")
-elif(day == "Tuesday"):
-  print("Tuesday Working Day!")
-elif(day == "Wednesday"):
-  print("Wednesday Working Day!")
-elif(day == "Thursday"):
-  print("Thursday Working Day!")
-elif(day == "Friday"):
-  print("Friday Working Day!")
-elif(day == "Saturday"):
-  print("Saturday Working Day!")
+# if(day == "Monday"):
+#   print("Monday Working Day!")
+# elif(day == "Tuesday"):
+#   print("Tuesday Working Day!")
+# elif(day == "Wednesday"):
+#   print("Wednesday Working Day!")
+# elif(day == "Thursday"):
+#   print("Thursday Working Day!")
+# elif(day == "Friday"):
+#   print("Friday Working Day!")
+# elif(day == "Saturday"):
+#   print("Saturday Working Day!")
+# else:
+#   print("Holiday!")
+
+
+# Logical Operators -
+
+# day = 'Saturday'
+
+# if(day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' or day == 'Thursday' or day == 'Friday' or day == 'Saturday'):
+#   print("Working Day!")
+# else:
+#   print("Holiday!")
+
+# Nested If -
+
+# compare 3 numbers and arrange them in ascending and descending -
+
+# num1 = int(input('Enter The Number 1 : '))
+# num2 = int(input('Enter The Number 2 : '))
+# num3 = int(input('Enter The Number 3 : '))
+
+# print(num1, type(num1))
+# print(num2, type(num2))
+# print(num3, type(num3))
+
+
+# Typecasting in python - is a process in which we will convert our data-type of the value into our required data-type
+# and for that particular need we require some pre-built methods like - int, str, List, Tuple, Dict, Set, float, bool
+
+
+
+
+
+# nested if example solution -
+
+num1 = int(input("Enter The Number 1 - "))
+num2 = int(input("Enter The Number 2 - "))
+num3 = int(input("Enter The Number 3 - "))
+
+if(num1 < num2 and num1 < num3):
+  if(num2 < num3):
+    print(num1, num2, num3)
+  elif(num3 < num2):
+    print(num1, num3, num2)
+  else:
+    print("num2 and num3 are equal, pleace provide those values which are differ from each other")
+elif(num2 < num1 and num2 < num3):
+  if(num1 < num3):
+    print(num2, num1, num3)
+  else:
+    print(num2, num3, num1)
+elif(num3 < num1 and num3 < num2):
+  if(num1 < num2):
+    print(num3, num1, num2)
+  else:
+    print(num3, num2, num1)
 else:
-  print("Holiday!")
+  print("all value are equal, please provide different values")
+
+# Write a Python program to print the ascending and descending order of four numbers which are strictly differ from each other
 
