@@ -1,0 +1,64 @@
+1. Create a function to find the square of a number.
+Input: 5 → Output: 25
+
+2. Write a function that takes two numbers and returns their sum.
+Input: (4, 6) → Output: 10
+
+3. Write a function to check whether a number is even or odd.
+Input: 7 → Output: "Odd"
+
+4. Create a function that returns the length of a string.
+Input: "Python" → Output: 6
+
+5. Write a function that returns the largest of three numbers.
+Input: (12, 4, 9) → Output: 12
+
+6. Write a function that takes a list of numbers and returns the total sum.
+Input: [1, 2, 3] → Output: 6
+
+7. Create a function to count the number of vowels in a string.
+Input: "hello" → Output: 2
+
+8. Write a function to reverse a string without using any built-in reverse methods.
+Input: "python" → Output: "nohtyp"
+
+9. Write a function that multiplies all numbers in a list.
+Input: [2, 3, 4] → Output: 24
+
+10. Create a function that returns the factorial of a number.
+Input: 5 → Output: 120
+
+✅ 10 Real-Life Python Function Questions (Practical Use Cases)
+11. Write a function that takes a person's name and age and returns a formatted greeting message.
+Example output: "Hello Bhavesh, you are 25 years old!"
+
+12. Create a function to calculate the total bill amount after applying GST to a product price.
+Inputs: price=1000, gst=18%
+Output: 1180
+
+13. Write a function that takes a list of temperatures in Celsius and converts each to Fahrenheit.
+C → F formula: F = (C * 9/5) + 32
+
+14. Write a function that validates an email.
+Conditions: must contain "@" and "."
+Return: "Valid" or "Invalid"
+
+15. Create a function to calculate an employee's monthly salary.
+Inputs: daily_salary, working_days
+Output: daily_salary × working_days
+
+16. Write a function that counts how many times a specific word appears in a paragraph.
+
+17. Write a function that calculates the total price of items in a shopping cart.
+Input: list of prices → Output: total amount
+
+18. Write a function that generates a strong password of given length.
+Include uppercase, lowercase, digits, symbols.
+
+19. Create a function that returns the total marks, percentage, and grade of a student.
+Inputs: marks in 5 subjects
+Output: dict → {total, percentage, grade}
+
+20. Write a function that determines if a given year is a leap year or not.
+
+Real-use: calendar calculations
