@@ -1,0 +1,73 @@
+A. np.array (5 Questions)
+- Create a NumPy array from a Python list of integers and print its datatype. 
+- Convert a list of floats into a NumPy array and check its shape.
+- Create a NumPy array containing mixed data types and observe the resulting dtype.
+- Create a 2D NumPy array using np.array and access the middle element.
+- Convert a nested list into a NumPy array and slice the last row.
+
+B. np.arange (5 Questions)
+- Create an array from 1 to 20 with a step size of 2.
+- Generate all even numbers between 10 and 50 using np.arange.
+- Create an array starting from 0 to 1 with a step of 0.1.
+- Use np.arange to generate a descending array from 10 to 1.
+- Create an array of 15 elements using np.arange and reshape it logically.
+
+C. np.zeros (4 Questions)
+- Create a 1D array of 10 zeros.
+- Create a 2D array of shape (3, 4) filled with zeros.
+- Create a zero matrix and check its dtype.
+- Convert a zero array into an integer array using astype.
+
+D. np.ones (4 Questions)
+- Create a 1D array of 8 ones.
+- Create a 3×3 matrix filled with ones.
+- Create an array of ones with float datatype.
+- Change the datatype of a ones array from float to int.
+
+E. np.full (4 Questions)
+- Create an array of size 5 filled with value 7.
+- Create a 4×4 array filled with value 99.
+- Create a full array with float values and convert it to integer.
+- Check the dtype of an array created using np.full.
+
+F. np.linspace (4 Questions)
+- Generate 10 equally spaced values between 0 and 1.
+- Create 5 values between 100 and 500 using np.linspace.
+- Generate a linspace array and slice only the middle values.
+- Check the datatype of an array created using np.linspace.
+
+G. astype (4 Questions)
+- Convert a float NumPy array into an integer array.
+- Convert an integer array into float using astype.
+- Convert a boolean array into integer type.
+- Change the dtype of a zeros array into float64.
+
+H. Fancy Indexing (6 Questions)
+- Select multiple elements from an array using index list [0, 2, 4].
+- Extract specific rows from a 2D array using fancy indexing.
+- Extract specific columns from a 2D NumPy array.
+- Use fancy indexing to rearrange elements of an array.
+- Replace selected elements in an array using fancy indexing.
+- Fetch corner elements of a 2D array using fancy indexing.
+
+I. Boolean Masking (6 Questions)
+- Select all elements greater than 10 using boolean masking.
+- Replace all negative values in an array with 0 using boolean masking.
+- Extract even numbers from an array using boolean masking.
+- Count how many elements are greater than the average value.
+- Filter values between 20 and 50 using boolean masking.
+- Set all values less than 5 to -1 using boolean masking.
+
+J. dtype (4 Questions)
+- Check the datatype of a NumPy array.
+- Create an array explicitly with dtype int32.
+- Compare memory size of int32 and float64 arrays.
+- Change the dtype of an array and verify it.
+
+K. Slicing (6 Questions)
+- Slice the first five elements from an array.
+- Slice every second element from an array.
+- Reverse a NumPy array using slicing.
+- Slice the last three elements from an array.
+- Extract a submatrix from a 2D array using slicing.
+- Modify a slice of an array and observe changes in original array.
