@@ -1,0 +1,26 @@
+# 💡 Scenario 1:
+# Financial datasets often have missing closing prices for holidays or missing records due to feed issues.
+# You must fill in prices to maintain a uniform time series for visualization or algorithmic trading.
+
+
+# 💡 Scenario 2:
+# A retail store’s POS system missed recording sales for some days.
+# You need a continuous dataset to generate weekly trends.
+
+
+# 💡 Scenario 3:
+# A logistics company stores medicines that must remain between 2°C and 8°C.
+# The IoT sensors log temperature every 30 minutes, but sometimes data packets are lost.
+# We must reconstruct missing data using time-aware interpolation before sending alerts.
+
+
+# 💡 Scenario 4:
+# A weather scientist is analyzing air pressure with respect to altitude.
+# Some readings are missing due to sensor failure at certain heights.
+# We’ll interpolate based on altitude (numeric index) — not equal steps, but meaningful vertical distances.
+
+
+# 💡 Scenario 5:
+# A factory tracks efficiency (%) of its production line at different machine speeds.
+# During a test, a few efficiency readings were missed.
+# We use machine speed (index) to interpolate missing efficiencies accurately.
